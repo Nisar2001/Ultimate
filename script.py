@@ -5,11 +5,11 @@ KEYS = ["speaker","earbuds","earphones","headphone","flash drive","adapter"
        ,"docking","sleeve","cover","keyboard","mouse"]
 
 def main():
-  reddit = praw.Reddit(client_id='',
-                     client_secret='',
-                     user_agent='',
-                     username='',
-                     password='')
+  reddit = praw.Reddit(client_id='gJyGFaH6YQoIwQ',
+                     client_secret='mW9ZQ4Z3HWAbL8LvGfjuAaAEwKc',
+                     user_agent='Python automatic commentbot v1.0 (by /u/EitherBat )',
+                     username='EitherBat',
+                     password='IamSEO125')
   
 
   subreddit = reddit.subreddit('macbookdeals')
